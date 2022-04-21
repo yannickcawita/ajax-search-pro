@@ -7,10 +7,5 @@
   "keywords": ["plugin","evista"],
   "require": {
     "johnpbloch/wordpress": "*"
-  },
-  "config": {
-    "allow-plugins": {
-      "johnpbloch/wordpress-core-installer": true
-    }
   }
 }
