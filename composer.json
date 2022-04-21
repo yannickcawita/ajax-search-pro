@@ -1,40 +1,11 @@
 {
-  "name": "ajax-search-pro",
+  "name": "yannickcawita/ajax-search-pro",
   "type": "wordpress-plugin",
-  "license": "MIT",
-  "description": "WordPress plugin to create Ajax Search",
-  "homepage": "https://github.com/yannickcawita/ajax-search-pro",
-  "authors": [
-    {
-      "name": "Yannick Abehssera",
-      "email": "yannick@cawita.com",
-      "homepage": "https://github.com/yannickcawita/ajax-search-pro"
-    }
-  ],
-  "keywords": [
-    "wordpress"
-  ],
-  "support": {
-    "issues": "https://github.com/yannickcawita/ajax-search-pro"
-  },
+  "homepage": "http://digital-agency.co",
+  "license": "GPLv3",
+  "description": "Evista Dedicated Plugin",
+  "keywords": ["plugin","evista"],
   "require": {
-    "php": ">=5.6",
-    "composer/installers": "^1.5",
-    "hassankhan/config": "^1.0",
-    "symfony/yaml": "^3.4"
-  },
-  "require-dev": {
-    "squizlabs/php_codesniffer": "2.*"
-  },
-  "autoload": {
-    "psr-4": {
-      "Sober\\Models\\": "src/",
-      "Sober\\Models\\Model\\": "src/Model/"
-    }
-  },
-  "scripts": {
-    "test": [
-      "vendor/bin/phpcs --extensions=php --ignore=vendor/ ."
-    ]
+    "johnpbloch/wordpress": "^4.5"
   }
-}
+ }
