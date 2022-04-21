@@ -6,6 +6,11 @@
   "description": "Evista Dedicated Plugin",
   "keywords": ["plugin","evista"],
   "require": {
-    "johnpbloch/wordpress": "^4.5"
+    "johnpbloch/wordpress": "*"
+  },
+  "config": {
+    "allow-plugins": {
+      "johnpbloch/wordpress-core-installer": true
+    }
   }
- }
+}
