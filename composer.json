@@ -3,19 +3,19 @@
   "type": "wordpress-plugin",
   "license": "MIT",
   "description": "WordPress plugin to create Ajax Search",
-  "homepage": "https://github.com/soberwp",
+  "homepage": "https://github.com/yannickcawita/ajax-search-pro",
   "authors": [
     {
-      "name": "Darren Jacoby",
-      "email": "darren@jacoby.co.za",
-      "homepage": "https://github.com/darrenjacoby"
+      "name": "Yannick Abehssera",
+      "email": "yannick@cawita.com",
+      "homepage": "https://github.com/yannickcawita/ajax-search-pro"
     }
   ],
   "keywords": [
     "wordpress"
   ],
   "support": {
-    "issues": "https://github.com/soberwp/models/issues"
+    "issues": "https://github.com/yannickcawita/ajax-search-pro"
   },
   "require": {
     "php": ">=5.6",
